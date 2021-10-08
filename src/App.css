@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: limegreen;
+}
+
+.form-box {
+    width: 380px;
+    height: 450px;
+    background-color: black;
+    padding: 20px ;
+    opacity: 0.5;
+    flex-direction: column;
+    border-radius: 20px;
+    margin:25px
+}
+
+h4 > i {
+    font-size: 110px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 20px;
+}
